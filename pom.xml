@@ -13,20 +13,11 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.release>17</maven.compiler.release>
+    <maven.compiler.source>1.8</maven.compiler.source>
+   	<maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 
-  <dependencyManagement>
-    <dependencies>
-      <dependency>
-        <groupId>org.junit</groupId>
-        <artifactId>junit-bom</artifactId>
-        <version>5.11.0</version>
-        <type>pom</type>
-        <scope>import</scope>
-      </dependency>
-    </dependencies>
-  </dependencyManagement>
+ 
 
   <dependencies>
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
@@ -36,7 +27,41 @@
     <version>4.28.1</version>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.10.2</version>
+    <scope>test</scope>
+</dependency>
+
   </dependencies>
+  
+  <profiles>
+ 
+  <profile>
+  <id>OptimizedE2E</id>   
+ <build>
+   <pluginManagement>
+     <plugins>  
+  <plugin>
+       <groupId>org.apache.maven.plugins</groupId>
+       <artifactId>maven-surefire-plugin</artifactId>
+       <version>3.5.1</version>
+       <configuration>
+         <suiteXmlFiles>
+           <suiteXmlFile>testng.xml</suiteXmlFile>        ←--- Location of XML File
+         </suiteXmlFiles>
+       </configuration>
+     </plugin>
+     </plugins>
+     </pluginManagement>
+     </build>
+  </profile>
+  
+  
+  
+  </profiles>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->

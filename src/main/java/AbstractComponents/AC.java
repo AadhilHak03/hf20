@@ -34,7 +34,7 @@ public class AC {
 	@FindBy(css="#checkout")
 	public WebElement checkoutButton;
 
-	 
+	@Test 
 	public CartPage goToCart() {
 		cartButton.click();
 		return new CartPage(dr);

@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
 
 import AbstractComponents.AC;
 
@@ -16,7 +17,7 @@ public class landingPage extends AC {
 		 PageFactory.initElements(dr, this);
 	 }
 	 
-	 
+	@Test 
 	public void goTo()
 	{
 		dr.get("https://www.saucedemo.com/");
@@ -30,6 +31,7 @@ public class landingPage extends AC {
 	@FindBy(id="login-button")
 	WebElement login;
 	
+	@Test
 	public productPage loginCode() {
 		user.sendKeys("standard_user");
 		pass.sendKeys("secret_sauce");

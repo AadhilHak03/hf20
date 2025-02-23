@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-22T15:47:51 EST" name="Suite" finished-at="2025-02-22T15:47:58 EST" duration-ms="6876">
+  <suite started-at="2025-02-22T23:11:34 EST" name="Suite" finished-at="2025-02-22T23:11:43 EST" duration-ms="9324">
     <groups>
     </groups>
-    <test started-at="2025-02-22T15:47:51 EST" name="Test" finished-at="2025-02-22T15:47:58 EST" duration-ms="6876">
+    <test started-at="2025-02-22T23:11:34 EST" name="Test" finished-at="2025-02-22T23:11:43 EST" duration-ms="9324">
       <class name="MainTests.OptimizedE2E">
-        <test-method is-config="true" signature="getPage()[pri:0, instance:MainTests.OptimizedE2E@39529185]" started-at="2025-02-22T15:47:51 EST" name="getPage" finished-at="2025-02-22T15:47:56 EST" duration-ms="5064" status="PASS">
+        <test-method is-config="true" signature="getPage()[pri:0, instance:MainTests.OptimizedE2E@39529185]" started-at="2025-02-22T23:11:34 EST" name="getPage" finished-at="2025-02-22T23:11:40 EST" duration-ms="6721" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPage -->
-        <test-method signature="OE2E()[pri:0, instance:MainTests.OptimizedE2E@39529185]" started-at="2025-02-22T15:47:56 EST" name="OE2E" finished-at="2025-02-22T15:47:58 EST" duration-ms="1741" status="PASS">
+        <test-method signature="OE2E()[pri:0, instance:MainTests.OptimizedE2E@39529185]" started-at="2025-02-22T23:11:40 EST" name="OE2E" finished-at="2025-02-22T23:11:43 EST" duration-ms="2527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OE2E -->

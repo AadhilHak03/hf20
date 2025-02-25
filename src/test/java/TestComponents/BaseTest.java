@@ -22,9 +22,9 @@ public class BaseTest {
 		Properties prop = new Properties();
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"/src/main/java/GlobalData/BrowserSelection.properties");
 		prop.load(fis);
-		//String browser = "FireFox";
+		String browser = "FireFox";
 		
-		String browserName= System.getProperty("browserName");
+		String browserName= System.getProperty("browserName")!=null ? System.getProperty("browserName") : prop.getProperty(browser);
 		
 		if(browserName.contains("Chrome")) {
 		dr = new ChromeDriver();

@@ -9,4 +9,9 @@ public class WEBHOOK1 {
 		System.out.println("testing 1");
 	}
 
+	@Test
+	public void test1() {
+		System.out.println("Test1");
+	}
+	
 }

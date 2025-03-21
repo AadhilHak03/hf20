@@ -1,7 +1,11 @@
 C:\Users\shaki\GitRepo\hf20\src\main\java\AbstractComponents\AC.java
+C:\Users\shaki\GitRepo\hf20\src\main\java\com\gurock\testrail\APIClient.java
+C:\Users\shaki\GitRepo\hf20\src\main\java\com\gurock\testrail\APIException.java
+C:\Users\shaki\GitRepo\hf20\src\main\java\com\qa\testrailmanager\TestRailManager.java
 C:\Users\shaki\GitRepo\hf20\src\main\java\PageObjects\CartPage.java
 C:\Users\shaki\GitRepo\hf20\src\main\java\PageObjects\CheckoutPage.java
 C:\Users\shaki\GitRepo\hf20\src\main\java\PageObjects\ConfirmationPage.java
 C:\Users\shaki\GitRepo\hf20\src\main\java\PageObjects\InfoPage.java
 C:\Users\shaki\GitRepo\hf20\src\main\java\PageObjects\landingPage.java
 C:\Users\shaki\GitRepo\hf20\src\main\java\PageObjects\productPage.java
+C:\Users\shaki\GitRepo\hf20\src\main\java\Resourcez\ExtentReporterNG.java

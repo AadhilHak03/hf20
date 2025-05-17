@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-20T23:40:49 EDT" name="Suite" finished-at="2025-03-20T23:41:12 EDT" duration-ms="23071">
+  <suite started-at="2025-05-16T20:39:10 EDT" name="Suite" finished-at="2025-05-16T20:39:30 EDT" duration-ms="19766">
     <groups>
     </groups>
-    <test started-at="2025-03-20T23:40:49 EDT" name="Test" finished-at="2025-03-20T23:41:12 EDT" duration-ms="23071">
+    <test started-at="2025-05-16T20:39:10 EDT" name="Test" finished-at="2025-05-16T20:39:30 EDT" duration-ms="19766">
       <class name="MainTests.OptimizedE2E">
-        <test-method is-config="true" signature="getPage()[pri:0, instance:MainTests.OptimizedE2E@23e84203]" started-at="2025-03-20T23:40:49 EDT" name="getPage" finished-at="2025-03-20T23:41:00 EDT" duration-ms="11066" status="PASS">
+        <test-method is-config="true" signature="getPage()[pri:0, instance:MainTests.OptimizedE2E@5745ca0e]" started-at="2025-05-16T20:39:10 EDT" name="getPage" finished-at="2025-05-16T20:39:18 EDT" duration-ms="7833" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPage -->
-        <test-method signature="OE2E()[pri:0, instance:MainTests.OptimizedE2E@23e84203]" started-at="2025-03-20T23:41:00 EDT" name="OE2E" finished-at="2025-03-20T23:41:10 EDT" duration-ms="10078" status="FAIL">
+        <test-method signature="OE2E()[pri:0, instance:MainTests.OptimizedE2E@5745ca0e]" started-at="2025-05-16T20:39:18 EDT" name="OE2E" finished-at="2025-05-16T20:39:29 EDT" duration-ms="10414" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -59,17 +59,10 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OE2E -->
-        <test-method is-config="true" signature="addResultsToTestRail(org.testng.ITestResult)[pri:0, instance:MainTests.OptimizedE2E@23e84203]" started-at="2025-03-20T23:41:11 EDT" name="addResultsToTestRail" finished-at="2025-03-20T23:41:12 EDT" duration-ms="1419" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=OE2E status=FAILURE method=OptimizedE2E.OE2E()[pri:0, instance:MainTests.OptimizedE2E@23e84203] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="quit()[pri:0, instance:MainTests.OptimizedE2E@5745ca0e]" started-at="2025-05-16T20:39:29 EDT" name="quit" finished-at="2025-05-16T20:39:30 EDT" duration-ms="1192" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addResultsToTestRail -->
+        </test-method> <!-- quit -->
       </class> <!-- MainTests.OptimizedE2E -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

@@ -1,0 +1,11 @@
+com\gurock\testrail\APIClient.class
+PageObjects\InfoPage.class
+PageObjects\landingPage.class
+Resourcez\ExtentReporterNG.class
+com\gurock\testrail\APIException.class
+PageObjects\ConfirmationPage.class
+AbstractComponents\AC.class
+com\qa\testrailmanager\TestRailManager.class
+PageObjects\CheckoutPage.class
+PageObjects\CartPage.class
+PageObjects\productPage.class

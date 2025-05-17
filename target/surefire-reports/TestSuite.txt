@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.95 s <<< FAILURE! -- in TestSuite
-MainTests.OptimizedE2E.OE2E -- Time elapsed: 10.66 s <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 18.83 s <<< FAILURE! -- in TestSuite
+MainTests.OptimizedE2E.OE2E -- Time elapsed: 10.64 s <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)

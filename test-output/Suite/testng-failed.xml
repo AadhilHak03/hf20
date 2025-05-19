@@ -8,9 +8,9 @@
     <classes>
       <class name="MainTests.OptimizedE2E">
         <methods>
-          <include name="quit"/>
           <include name="OE2E"/>
           <include name="getPage"/>
+          <include name="quit"/>
         </methods>
       </class> <!-- MainTests.OptimizedE2E -->
     </classes>

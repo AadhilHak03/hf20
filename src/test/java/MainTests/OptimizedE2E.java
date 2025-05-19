@@ -11,7 +11,7 @@ import PageObjects.productPage;
 import TestComponents.BaseTest;
 import TestComponents.BaseTest2;
 
-public class OptimizedE2E extends BaseTest{
+public class OptimizedE2E extends BaseTest2{
 
 	@Test
 	public void OE2E()

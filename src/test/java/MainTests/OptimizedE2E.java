@@ -9,12 +9,13 @@ import PageObjects.ConfirmationPage;
 import PageObjects.InfoPage;
 import PageObjects.productPage;
 import TestComponents.BaseTest;
+import TestComponents.BaseTest2;
 
 public class OptimizedE2E extends BaseTest{
 
 	@Test
 	public void OE2E()
-	{	testCaseID = "1";
+	{	
 	
 		productPage pp = lp.loginCode();
 		pp.addProduct();

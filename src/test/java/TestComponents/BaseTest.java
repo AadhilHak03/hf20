@@ -55,7 +55,7 @@ public class BaseTest {
 			dc.setCapability(CapabilityType.BROWSER_NAME, "edge");
 		}
 		
-		URI uri = new URI("http://localhost:4444");
+		URI uri = new URI("http://localhost:4444/wd/hub");
 		URL url = uri.toURL();
 		dr = new RemoteWebDriver(url, dc);		
 		dr.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));		

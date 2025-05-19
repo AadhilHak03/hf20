@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-17T11:54:47 EDT" name="Suite" finished-at="2025-05-17T11:55:05 EDT" duration-ms="17572">
+  <suite started-at="2025-05-19T01:53:57 EDT" name="Suite" finished-at="2025-05-19T01:54:17 EDT" duration-ms="20054">
     <groups>
     </groups>
-    <test started-at="2025-05-17T11:54:47 EDT" name="Test" finished-at="2025-05-17T11:55:05 EDT" duration-ms="17572">
+    <test started-at="2025-05-19T01:53:57 EDT" name="Test" finished-at="2025-05-19T01:54:17 EDT" duration-ms="20054">
       <class name="MainTests.OptimizedE2E">
-        <test-method is-config="true" signature="getPage()[pri:0, instance:MainTests.OptimizedE2E@1cf56a1c]" started-at="2025-05-17T11:54:47 EDT" name="getPage" finished-at="2025-05-17T11:54:53 EDT" duration-ms="6076" status="PASS">
+        <test-method is-config="true" signature="getPage()[pri:0, instance:MainTests.OptimizedE2E@1cf56a1c]" started-at="2025-05-19T01:53:57 EDT" name="getPage" finished-at="2025-05-19T01:54:05 EDT" duration-ms="7968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPage -->
-        <test-method signature="OE2E()[pri:0, instance:MainTests.OptimizedE2E@1cf56a1c]" started-at="2025-05-17T11:54:53 EDT" name="OE2E" finished-at="2025-05-17T11:55:04 EDT" duration-ms="10363" status="FAIL">
+        <test-method signature="OE2E()[pri:0, instance:MainTests.OptimizedE2E@1cf56a1c]" started-at="2025-05-19T01:54:05 EDT" name="OE2E" finished-at="2025-05-19T01:54:16 EDT" duration-ms="10583" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -22,7 +22,7 @@ at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertTrue(Assert.java:57)
 at org.testng.Assert.assertTrue(Assert.java:67)
-at MainTests.OptimizedE2E.OE2E(OptimizedE2E.java:26)
+at MainTests.OptimizedE2E.OE2E(OptimizedE2E.java:27)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -55,7 +55,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OE2E -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:MainTests.OptimizedE2E@1cf56a1c]" started-at="2025-05-17T11:55:04 EDT" name="quit" finished-at="2025-05-17T11:55:05 EDT" duration-ms="880" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:MainTests.OptimizedE2E@1cf56a1c]" started-at="2025-05-19T01:54:16 EDT" name="quit" finished-at="2025-05-19T01:54:17 EDT" duration-ms="1067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

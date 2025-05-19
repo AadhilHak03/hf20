@@ -32,6 +32,7 @@ public class BaseTest {
 	protected String testCaseID;
 
 	
+	@SuppressWarnings("deprecation")
 	public WebDriver startDriver() throws IOException, URISyntaxException {
 		Properties prop = new Properties();
 		DesiredCapabilities dc = new DesiredCapabilities();
@@ -55,9 +56,9 @@ public class BaseTest {
 			dc.setCapability(CapabilityType.BROWSER_NAME, "edge");
 		}
 		
-		URI uri = new URI("http://localhost:4444/wd/hub");
-		URL url = uri.toURL();
-		dr = new RemoteWebDriver(url, dc);		
+		/*URI uri = new URI("http://localhost:4444/wd/hub");
+		URL url = uri.toURL();*/
+		dr = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), dc);		
 		dr.manage().timeouts().implicitlyWait(Duration.ofSeconds(7));		
 		
 		return dr;

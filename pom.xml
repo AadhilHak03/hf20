@@ -54,6 +54,12 @@
     <version>1.1.1</version>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-devtools-v137 -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-devtools-v137</artifactId>
+    <version>4.33.0</version>
+</dependency>
 
 
   </dependencies>
@@ -71,7 +77,27 @@
        <version>3.3.0</version>
        <configuration>
          <suiteXmlFiles>
-           <suiteXmlFile>testng.xml</suiteXmlFile>        ←--- Location of XML File
+           <suiteXmlFile>TestSuite/testng.xml</suiteXmlFile>        ←--- Location of XML File
+         </suiteXmlFiles>
+       </configuration>
+     </plugin>
+     </plugins>
+     </pluginManagement>
+     </build>
+  </profile>
+  
+  <profile>
+  <id>Mock</id>   
+ <build>
+   <pluginManagement>
+     <plugins>  
+  <plugin>
+       <groupId>org.apache.maven.plugins</groupId>
+       <artifactId>maven-surefire-plugin</artifactId>
+       <version>3.3.0</version>
+       <configuration>
+         <suiteXmlFiles>
+           <suiteXmlFile>TestSuite/MockNG.xml</suiteXmlFile>        ←--- Location of XML File
          </suiteXmlFiles>
        </configuration>
      </plugin>

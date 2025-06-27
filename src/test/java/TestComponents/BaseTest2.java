@@ -43,7 +43,7 @@ public class BaseTest2 {
                 ? System.getProperty("browserName")
                 : prop.getProperty(browsers);
 
-        URL gridUrl = new URI("http://localhost:4444/wd/hub").toURL();
+        URL gridUrl = new URI("http://selenium-hub:4444/wd/hub").toURL();
 
         switch (browserName.toLowerCase()) {
             case "chrome":

@@ -1,5 +1,7 @@
 package MainTests;
 
+import java.sql.SQLException;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -11,10 +13,10 @@ import PageObjects.productPage;
 import TestComponents.BaseTest;
 import TestComponents.BaseTest2;
 
-public class OptimizedE2E extends BaseTest2{
+public class OptimizedE2E extends BaseTest{
 
 	@Test
-	public void OE2E()
+	public void OE2E() throws SQLException
 	{	
 	
 		productPage pp = lp.loginCode();

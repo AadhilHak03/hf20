@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MainTests.OptimizedE2E">
+      <class name="MainTests.Mocking">
         <methods>
-          <include name="OE2E"/>
-          <include name="getPage"/>
-          <include name="addResultsToTestRail"/>
+          <include name="letssee"/>
         </methods>
-      </class> <!-- MainTests.OptimizedE2E -->
+      </class> <!-- MainTests.Mocking -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

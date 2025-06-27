@@ -113,26 +113,7 @@ public class Mocking {
 	
 	
 	
-	/*@Test
-	public void sqlConn() throws SQLException {
-		String host = "localhost";
-		String port = "3306";
-		
-		Connection con = DriverManager.getConnection("jdbc:mysql://" +host+ ":" +port+ "/DB1", "root", "Meliodas99@!");
-		
-		Statement sm = con.createStatement();
-		ResultSet rs = sm.executeQuery("select * from UserInfo where Username = 'standard_user';");
-		while(rs.next())
-		{
-			WebDriver dr = (WebDriver) new ChromeDriver();
-			dr.get("https://www.saucedemo.com/");
-			
-			dr.findElement(By.cssSelector("#user-name")).sendKeys(rs.getString("Username"));
-			dr.findElement(By.cssSelector("#password")).sendKeys(rs.getString("Password"));
-			dr.findElement(By.id("login-button")).click();
-		}
-		
-	}*/
+
 	
 	
 	
